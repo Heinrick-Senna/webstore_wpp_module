@@ -36,6 +36,7 @@
 
 .wpp-listbutton svg {
     transform: scale(.85);
+    fill: <!--###PREF_40###-->;
 }
 
 .wpp-listbutton span {
