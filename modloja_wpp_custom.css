@@ -1,0 +1,47 @@
+/* WhatsApp Buttons */
+
+.wpp-cartbutton {
+    float: left;
+    display: flex;
+    justify-content: center;
+    background: rgb(79, 204, 92);
+    text-align: center;
+    padding: 1.5rem;
+    font-weight: 600;
+    color: white;
+    fill: white;
+    border-radius: .5rem;
+    margin-left: 20px;
+}
+
+.wpp-cartbutton:hover {
+    color: white;
+}
+
+.wpp-cartbutton svg {
+    width: 20px;
+    height: 20px;
+}
+
+.wpp-cartbutton span {
+    margin-left: .75rem;
+}
+
+.wpp-listbutton {
+    margin-top: .5rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.wpp-listbutton svg {
+    transform: scale(.85);
+}
+
+.wpp-listbutton span {
+    margin-left: .75rem;
+}
+
+.prod-no-wpp {
+    height: auto!important;
+}
